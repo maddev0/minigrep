@@ -1,0 +1,9 @@
+* Minigrep
+the next best text file search tool, written in Rust!
+
+this is a neat little project from The Rust Book, second edition.
+Not meant to be particularly useful, as much as a good learning experience.
+
+** Run
+there should be a ~poem.txt~ file at the ~src/~ directory for the binary to find.
+compile and run with ~cargo run needle poem.txt~
