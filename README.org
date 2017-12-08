@@ -4,6 +4,12 @@ the next best text file search tool, written in Rust!
 this is a neat little project from The Rust Book, second edition.
 Not meant to be particularly useful, as much as a good learning experience.
 
+** Installation
+Developed against the latest stable version of ~rustc~
+#+BEGIN_SRC sh
+rustc 1.22.1 (05e2e1c41 2017-11-22)
+#+END_SRC
+
 ** Run
 there should be a ~poem.txt~ file at the ~src/~ directory for the binary to find.
 compile and run with ~cargo run needle poem.txt~
