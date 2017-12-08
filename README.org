@@ -11,5 +11,16 @@ rustc 1.22.1 (05e2e1c41 2017-11-22)
 #+END_SRC
 
 ** Run
-there should be a ~poem.txt~ file at the ~src/~ directory for the binary to find.
+There should be a ~poem.txt~ file at the ~src/~ directory for the binary to find.
 compile and run with ~cargo run needle poem.txt~
+
+To build it with debug
+#+BEGIN_SRC sh
+cargo build
+./target/debug/minigrep the poem.txt
+#+END_SRC
+
+To build it with more optimizations
+#+BEGIN_SRC sh
+./target/release/minigrep the poem.txt
+#+END_SRC
