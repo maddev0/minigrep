@@ -22,5 +22,6 @@ cargo build
 
 To build it with more optimizations
 #+BEGIN_SRC sh
+cargo build --release
 ./target/release/minigrep the poem.txt
 #+END_SRC
